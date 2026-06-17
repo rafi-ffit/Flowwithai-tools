@@ -24,6 +24,7 @@ export default function Navbar() {
   const links = [
     { name: 'Home', path: '/' },
     { name: 'Tools', path: '/tools' },
+    { name: 'Trending', path: '/trending' },
     { name: 'Categories', path: '/tools?sort=category' }, // Since there is no explicit /category root, linking to tools with maybe a filter state
     { name: 'Submit Tool', path: '/submit' },
   ];
